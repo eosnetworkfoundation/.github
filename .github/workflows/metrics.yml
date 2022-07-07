@@ -17,7 +17,6 @@ jobs:
         filename: profile/metrics.svg
         token: ${{ secrets.GITHUB_TOKEN }}
         base: header, activity, community, repositories, metadata
-        plugin_activity: yes
         plugin_followup: yes
         plugin_followup_sections: repositories
         plugin_languages: yes
