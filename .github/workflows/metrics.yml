@@ -23,3 +23,6 @@ jobs:
         plugin_habits: yes
         plugin_habits_facts: yes
         plugin_habits_charts: no
+        plugin_languages: yes
+        plugin_lines: yes
+        plugin_projects: yes
