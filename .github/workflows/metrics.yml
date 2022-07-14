@@ -18,7 +18,7 @@ jobs:
         #token: ${{ secrets.GITHUB_TOKEN }}
         token: ${{ secrets.METRICS_TOKEN }}
         base: header, activity, community, repositories, metadata
-        base_indepth: yes
+        #base_indepth: yes
         plugin_followup: yes
         plugin_followup_sections: repositories
         plugin_languages: yes
