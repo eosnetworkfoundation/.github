@@ -14,7 +14,6 @@ jobs:
     - uses: lowlighter/metrics@latest
       with:
         #user: eosnetworkfoundation
-        user: tedcahalleos
         filename: profile/metrics.svg
         token: ${{ secrets.GITHUB_TOKEN }}
         base: header, activity, community, repositories, metadata
