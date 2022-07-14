@@ -13,7 +13,7 @@ jobs:
     steps:
     - uses: lowlighter/metrics@latest
       with:
-        user: eosnetworkfoundation
+        #user: eosnetworkfoundation
         filename: profile/metrics.svg
         token: ${{ secrets.GITHUB_TOKEN }}
         base: header, activity, community, repositories, metadata
