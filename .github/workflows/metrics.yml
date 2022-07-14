@@ -24,9 +24,3 @@ jobs:
         plugin_languages: yes
         plugin_people: yes
         plugin_people_types: members
-        template: repository
-        repo: mandel
-        plugin_licenses: yes
-        plugin_licenses_setup: npm ci
-        plugin_licenses_legal: no
-        plugin_licenses_ratio: yes
